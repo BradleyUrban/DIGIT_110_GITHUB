@@ -1,0 +1,25 @@
+start = poem
+poem = element poem {header}
+header = element header {pages}
+pages = element pages {invisable,text}
+invisable = element invisbale {bolded,text}
+bolded = attribute bolded {xsd:ID}
+
+author = element author {title}
+title = attribute title {firstpage,text}
+firstpage = attribute firstpage {character}
+character = attribute character {underlined,text}
+
+underlined = element underlined {person}
+person = attribute person {secondpage,text}
+secondpage = element secondpage {text}
+t = element t {place,text}
+place = attribute place {city,state}
+city = element city {text}
+state = element state {text}
+date = element date {"when"}
+source = attribute source {xsd:ID}
+colletction = attribute collection {xsd:ID}
+
+
+
