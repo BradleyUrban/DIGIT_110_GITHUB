@@ -1,0 +1,23 @@
+start = recipe
+recipe = element recipe {text}
+cake = attribute cake {xsd:ID}
+title =element title {text}
+
+p = element p {num+}
+num = attribute num {xsd:ID}
+origin = element origin {text}
+item = element item {text}
+person = element person {text}
+country = attribute country {xsd:ID}
+
+date-in-time = attribute date-in-time {date+}
+date = element date {text}
+ingredient = element ingredient {text}
+adj = element adj {text}
+amount = attribute amount {xsd:ID}
+
+appliance = attribute appliance {tempature, time, spice, depth+}
+tempature = element tempature {text}
+time = element time {text}
+depth = element depth {text}
+spice = element spice {text}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<passage><entire date='1858-08-31'>August 31.</entire>
+
+<line num='1'><v speaking='1'>Valentia to Newfoundland.</v></line>
+<line num='2'>“Can you read? We have two government messages. Will you take? Reply direct.”</line>
+ jmi
+<line num='3'><nf speaking='1'>Newfoundland to Valentia.</nf></line>
+<line num='4'>“Try, but send.”</line>
+
+<line num='5'><v speaking='2'>Valentia to Newfoundland.</v></line>
+<line num='6'>“<power command='higher of power'>The Military Secretary to Commander-in-Chief Horse Guards</power>, <place country='city'>London</place>. To General Trollope, <place><!-- do not know if it is a place -->Halifax</place>, Nova Scotia:—The sixty-second regiment is not to return to <place country='text'>England</place>.”</line>
+<text><!-- text that is not ment to be seen -->(This message, and that which will be found farther on in regard to the thirty-ninth regiment, saved to the <group>British government</group> the sum of <weight>fifty thousands pounds</weight> <money>($250,000)</money>, by avoiding the shipment and transportation of <group>troops</group>.)</text>
+
+<line num='7'><nf speaking='2'>Newfoundland to Valentia.</nf></line>
+<line num='8'>“This received:The Military Secretary to Commander-in- Chief Horse Guards, London.” “‘Trollope,’understand. Go on after ‘Scotia.’”</line>
+<line num='9'>“Is it finished after ‘<place country='city'>England</place>?’”</line>
+
+<line num='10'><v speaking='3'>Valentia to Newfoundland.</v></line>
+<line num='11'>“Yes. Now take another. Are you ready?”</line>
+
+<line num='12'><nf speaking='3'>Newfoundland to Valentia.</nf></line>
+<line num='13'>“Yes, send.”</line>
+
+<line num='14'><v speaking='4'>Valentia to Newfoundland.</v></line>
+<line num='15'>“The Military Secretary to Commander-in-Chief Horse Guards, to General Officer commanding, <place country='city'>Montreal</place>, <place country='text'>Canada</place>:—The thirty-ninth regiment is not to return to <place country='text'>England</place>.”</line>
+
+<line num='16'><nf speaking='4'>Newfoundland to Valentia.</nf></line>
+<line num='17'>“I want you to repeat ‘<place conutry='1'>Canada</place>.’”</line>
+
+<line num='18'><v speaking='5'>Valentia to Newfoundland.</v></line>
+<line num='19'>“Can’t read. Try ‘<person><!-- person of significence -->Daniels</person>.’”</line>
+
+<line num='20'><nf speaking='5'>Newfoundland to Valentia.</nf></line>
+<line num='21'>“Repeat from ‘<place country='1'>Canada</place>’ to ‘return.’”</line>
+</passage>

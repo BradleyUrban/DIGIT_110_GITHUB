@@ -1,0 +1,7 @@
+start = twinkie
+twinkie = element xml {heading, p, place, time-date, scribble, country, location, emotion, animal, similar, people}
+
+heading = element heading {text}
+place = element place {text}
+
+p = element p {num}
