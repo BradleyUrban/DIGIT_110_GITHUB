@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event>XML is 20: Tim Bray on XML's 20th birthday
+        <author>Tim Bray</author>
+        <publication type="digital" target="https://www.xml.com/articles/2018/02/10/xml-20/">XML.com</publication>
+        <pubDate when="2018-02-10"/>
+        <copyright>Article contents © 2018 Tim Bray</copyright>
+        <p>
+            <quote source="Beatles">“It was twenty years ago today/Sergeant Pepper taught the band to
+            play..."</quote>. Actually, it was <duration quantity="21.5" unit="year">21½ years ago
+                today</duration> that <persName>Jon Bosak</persName> pulled together the original
+            <orgName>XML Working Group</orgName>. But yes, it was <event>on <date when ="1998-02-10">
+                February 10, 1998"</date> that <codeSpec>XML 1.0</codeSpec> was
+                released to the world</event>. Which is worth talking about.</p>
+        <p>It turns out that if you follow the pointers back, the original <codeSpec>XML 1.0
+            Specification</codeSpec> is still out there &amp; <rs type="person" ref="Bray_Tim">my
+                fingers</rs> were the last to touch that document. The history of how XML came to be
+            has been told at great length elsewhere, as have the details about <date
+                when="1998-02-10">that February 10th</date>, so there’s no need to revisit.</p>
+        <p>
+            <event when="2018-02-10">Happy birthday!</event></p></event>
+        
+        
+

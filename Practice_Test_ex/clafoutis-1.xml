@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="schemaClassSolution.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="recipeSchema-1.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <metadata>
         <title>Julia Child’s Berry Clafoutis</title>
         <author id="JC">Julia Child</author>
         <editor id="JM">Julia Moskin</editor>
-        <source url="https://cooking.nytimes.com/recipes/12688-julia-childs-berry-clafoutis">New
-            York Times Cooking</source>
+        <source url="https://cooking.nytimes.com/recipes/12688-julia-childs-berry-clafoutis">New York Times Cooking</source>
         <time dur="PT1H">1 hour</time>
         <yield>Yield: 6 to 8 servings</yield>
     </metadata>
