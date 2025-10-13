@@ -3,30 +3,29 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   
-  <teiHeader>
+
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>March 17, 1909. Wednesday St. Patrick's Day</title>
          </titleStmt>
          <publicationStmt>
-            <p>Copyright 1608, by friendship calendar co.
-            New Britain Comn.</p>
+            <p>Copyright 1608, by friendship calendar co. New Britain Comn.</p>
          </publicationStmt>
          <sourceDesc>
-            <p> <!-- There appears to be  snake and at least
+            <p>
+               <!-- There appears to be  snake and at least
             4 four leafed clovers for drawings, including a town of sorts
             with smoke stacks spewing smoke up, also includes some
-            handwriting that I am unable to make out exactly--> </p>
+            handwriting that I am unable to make out exactly-->
+            </p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-         <p>St. Patrick was a useful saint he
-         frightened all the snakes away - I wish
-         He'd try his art on smoke aorund the
-         hammermill some day!</p>
+         <div type="text"><p>St. Patrick was a useful saint he frightened all the snakes away - I wish He'd try his
+            art on smoke aorund the hammermill some day!</p></div>
       </body>
-  </text>
+   </text>
 </TEI>
