@@ -1,0 +1,93 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Game Review of "Pokemon Legends:ZA"</title>
+        <author>Brady Urbanoiwcz</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Itai Dabby</publisher>
+        <availability status="free">
+          <p/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Review</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="RomaJS" version="1.3.0" when="2025-10-15T18:17:58.828Z">
+          <desc>File edited with <ref target="https://github.com/BradleyUrban/DIGIT_110_GITHUB"
+              >RomaJS</ref></desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>Itai Dabby Review</head>
+      <p>Im still very early on, and I'm not gonna lie - <emph>its a good time and honestly</emph> a
+        pretty good pokemon game. But that is the problem, its good only in comparison to other
+        pokemon games. </p>
+      <p>Let's talk about positive things first: + the character's models are the best they've been!
+        And the pokemon models are not bed either + their personalities are really appealing and fun
+        + the animations in cutscenes are amazing! It's the best we've had thus far by a mile + the
+        gameplay loop is quite good! It's engaging, fun and keeps you hooked + and most important -
+        vibes. It's the closest thing to the anime we've got! You really feel like a <tag>pokemon
+          trainer</tag> commanding the pokemons to move (even though its kind of only button
+        mashing)</p>
+      <p><emph>And now I'll address the things I found to be dissapoiting:</emph> 
+        - there's no dubbing, not even
+        in cutscenes, which is a shame cause they are really good! But seeing the mouths move yet
+        hearing nothing is a real bummer 
+        - the handholding is really bad in this one, for the first
+        3 hours I felt like I only walk after the rival (and while we're at it, why are they
+        stopping me after every road? There are enough games with a mission to follow someone, just
+        do that) I know its what we've come to expect from pokemom but it's still annoying 
+        - the graphics and textures are long outdated. I played on switch 1 and its a big step forward,
+        yet still looks like trash. I do believe that gameplay is more important than graphics, but
+        I've shown this to a friend that doesn't play pokemon, and they thought I'm playing a game
+        that came out 10 years ago. I dont want much more, just better textures and less popping and
+        flickering. If this console could run breath of the wild I dont see why that is
+        unreasonable. 
+        - the wild zones kind of feel like a guided tour in a zoo, and that makes the
+        pokemon in them feel not alive, and kind of like the lines of code they are. 
+        - and the most important - the price. 60$ for a game that looks like that and runs in 30FPS is very
+        unreasonable. Video games are a luxury, but there is a factor of value for money, and
+        unfortunately, this doesn't pass for me.</p>
+      <p>There are more things I can say for both sides, but the summary is that in my opinion, the
+        game is very fun and a big step in the right direction, yet doesn't hold the standard for
+        games in 2025, especially AAA games with budget like this one. That being said, I will play
+        this game to the end and hopefully I'll see more aspects of it :)</p>
+      <p>The first four modules are often called the <soCalled>required</soCalled> modules. However,
+        these modules are not themselves technically required to create a TEI conformant markup
+        language (let alone a useful non-TEI conformant markup language). Rather, they each contain
+        one or more <emph>elements</emph> which are required for TEI conformance.</p>
+      <schemaSpec ident="tei_all" start="TEI teiCorpus" prefix="tei_" targetLang="en" docLang="en">
+        <moduleRef n="01" key="tei"/>
+        <moduleRef n="02" key="header"/>
+        <moduleRef n="03" key="core"/>
+        <moduleRef n="04" key="textstructure"/>
+        <moduleRef n="05" key="gaiji"/>
+        <moduleRef n="06" key="verse"/>
+        <moduleRef n="07" key="drama"/>
+        <moduleRef n="08" key="spoken"/>
+        <moduleRef n="09" key="cmc"/>
+        <moduleRef n="18" key="analysis"/>
+        <moduleRef n="10" key="dictionaries"/>
+        <moduleRef n="11" key="msdescription"/>
+        <moduleRef n="12" key="transcr"/>
+        <moduleRef n="13" key="textcrit"/>
+        <moduleRef n="14" key="namesdates"/>
+        <moduleRef n="15" key="figures"/>
+        <moduleRef n="16" key="corpus"/>
+        <moduleRef n="17" key="linking"/>
+        <moduleRef n="19" key="iso-fs"/>
+        <moduleRef n="20" key="nets"/>
+        <moduleRef n="22" key="certainty"/>
+        <moduleRef n="23" key="tagdocs"/>
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>
