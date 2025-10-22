@@ -4,17 +4,43 @@ body {
     background: LightSteelBlue;
     font-family: Comic-sans, Arial, Helvetica, sans-serif;
 }
+h1 {
+    font-size: 5ex;
+    text-align: center
 
-div.side-by-side {
-    display: flex;
 }
 
+nav {
+    font-size: 3ex;
+}
 img {
     width: 59%;
     max-width: 500px;
 }
 
-.featureBlock {
-    background-color:pink;
+figcaption {
     font-size: smaller;
+    font-style: italic;
+}
+div.side-by-side {
+    display: flex;
+    margin: 1em auto
+}
+
+figure {
+    background-color: grey
+}
+
+.align {
+    text-align: center
+}
+
+figure.lock {
+    flex: 1;
+    background-color: blue;
+}
+
+.featureBlock {
+    background-color: orange;
+
 }
