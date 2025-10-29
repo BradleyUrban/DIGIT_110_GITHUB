@@ -3,6 +3,8 @@ body {
     /*background:papayaWhip*/
     background: LightSteelBlue;
     font-family: Comic-sans, Arial, Helvetica, sans-serif;
+    margin-left:5em;
+    margin-right:5em;
 }
 h1 {
     font-size: 5ex;
@@ -10,6 +12,10 @@ h1 {
 
 }
 
+
+ul {
+    list-style: none;
+}
 nav {
     font-size: 3ex;
 }
@@ -27,8 +33,26 @@ div.side-by-side {
     margin: 1em auto
 }
 
+.flex-item {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 figure {
-    background-color: grey
+    background-color: grey;
+    padding: 20px;
+    width: 50%;
+    
+}
+
+.box {
+  border: 5px solid black;
 }
 
 .align {
@@ -37,10 +61,10 @@ figure {
 
 figure.lock {
     flex: 1;
-    background-color: blue;
+    background-color: #FFBF00;
 }
 
 .featureBlock {
-    background-color: orange;
+    background-color: #FF7F50;
 
 }
