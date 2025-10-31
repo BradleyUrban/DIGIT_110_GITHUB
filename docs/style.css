@@ -5,6 +5,8 @@ body {
     font-family: Comic-sans, Arial, Helvetica, sans-serif;
     margin-left:5em;
     margin-right:5em;
+    margin-top:3em;
+    margin-bottom:3em;
 }
 h1 {
     font-size: 5ex;
@@ -42,6 +44,7 @@ div.side-by-side {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
 }
 
 figure {

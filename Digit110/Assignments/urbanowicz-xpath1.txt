@@ -1,0 +1,19 @@
+# XPath Excerise 1 with CBML New code
+Brady Urbanowicz
+
+1./TEI/text/body/div or //div[@type="panelGrp"] -24 rsults
+2. //div[@type="panelGrp"]/cbml:panel -24 rsults
+3. //div[@type="panelGrp"][2]/cbml:panel
+4. //@characters - 40 results
+5. //cbml:panel[@characters="#narrator"]
+6. //floatingText - 41 results 
+7. //cbml:panel[floatingText] - 26 results
+8. //cbml:panel[floatingText]/count(1)
+
+
+---Old Code-orginal---
+//body/div type[titlePage" xml:id="eg_0001/p1]
+//body/div type["panelGrp" xml:id="eg_0002/p2]
+//bibl[element]
+//cbml:panel[type=characters/#narrator]
+//div[type #eq fw]
