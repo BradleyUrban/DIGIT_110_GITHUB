@@ -1,0 +1,16 @@
+# XPath Excerise 1 with CBML New code
+Brady Urbanowicz
+
+1. //body//div[@type='historicalPerson']
+2, //body//div[@type='historicalPerson']//* 
+3. //body//div[@type='SOMETHING']/*
+4. count(//div//*)
+5. count(//list[@type='animals']/*)
+6. //list[@type='animals']/item[last()]
+7. //list[@type='plants']/item[5]
+8. //list[@type='plants']/item[position() <= 6]
+9. //list[@type='plants']/item[position() <= 6]
+10. count(//person)
+11. //person[@sex]
+12. (count(//person[@sex]) div count(//person)) * 100
+13. (count(//person[@sex='f']) div count(//person[@sex])) * 100

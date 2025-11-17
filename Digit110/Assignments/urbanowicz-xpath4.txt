@@ -1,0 +1,13 @@
+Brady Urbanowicz
+
+- XPATH Excerise 4 - 
+
+
+distinct-values(//cbml:panel/@characters)                              
+distinct-values(//cbml:panel/@characters ! tokenize(.))                   
+//cbml:panel[contains(@characters, 'drkelly')]                              
+//cbml:panel[starts-with(@characters, 'kaliman')]                         
+max(//cbml:balloon ! string-length(.))
+//cbml:balloon[string-length(.) = max(//cbml:balloon ! string-length(.))]/@who
+//cbml:balloon[string-length(.) = min(//cbml:balloon ! string-length(.))]
+//cbml:panel[.//note[contains(., 'skull')]]

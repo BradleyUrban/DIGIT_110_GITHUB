@@ -54,6 +54,9 @@ figure {
     
 }
 
+.back {
+    background-image:url(img)
+}
 .box {
   border: 5px solid black;
 }

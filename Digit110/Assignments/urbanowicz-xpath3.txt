@@ -1,0 +1,20 @@
+Brady Urbanowicz 
+
+- XPATH assignemnt 3 -
+
+//div/count(*)
+//div/*/count(*)
+max(//div/*/count(*))
+min(//div/*/count(*))
+//div[count(*) = max(//div/count(*))]
+distinct-values(//occupation/@type)
+count(distinct-values(//occupation/@type))
+//occupation[@type="artist"]
+//person[occupation[@type="artist"]]
+//person[@sex="f"][occupation[@type="artist"]]
+//person[occupation[@subtype="engraver"]]
+//person[occupation[@subtype="engraver"]][birth="1787" or birth/@when="1787"]
+//person[occupation[@subtype="engraver"]]/birth
+//person[occupation[@subtype="engraver"]]/birth ! xs:integer(.) => sort() => min()
+//*/name()
+count(distinct-values(//*/name()))
