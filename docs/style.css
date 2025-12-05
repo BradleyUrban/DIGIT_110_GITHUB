@@ -1,4 +1,27 @@
 body {
+   
+    background-image: url('images/op-background.jpg');
+    
+
+    background-attachment: fixed;
+    
+
+    background-size: cover; 
+    
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+    
+    /* Set a default font for the whole page */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    /* Removes default browser margins */
+    margin: 0;
+    padding: 0;
+}
+
+body {
 
     /*background:papayaWhip*/
     background: LightSteelBlue;
@@ -14,6 +37,32 @@ h1 {
 
 }
 
+.main-content {
+   
+    width: 1050px; 
+    
+    /* This centers the block on the page */
+    margin: 40px auto;
+    
+    /* This is the white background */
+    background-color: #ffffff;
+    
+    /* Adds spacing inside the white box */
+    padding: 30px;
+    
+    /* Adds a slight shadow */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    
+    /* Rounds the corners */
+    border-radius: 8px;
+}
+
+/* For mobile phones */
+@media (max-width: 768px) {
+    .main-content {
+        width: 90%; 
+    }
+}
 
 ul {
     list-style: none;
@@ -40,6 +89,10 @@ div.side-by-side {
     border: 1px solid black;
 }
 
+.container {
+    display: flex;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -49,8 +102,10 @@ div.side-by-side {
 
 figure {
     background-color: grey;
+    margin: 40px auto;
     padding: 20px;
-    width: 50%;
+    width: 45%;
+    
     
 }
 
