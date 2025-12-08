@@ -1,36 +1,27 @@
 body {
-   
-    background-image: url('images/op-background.jpg');
-    
+
+    background-image: url('images/comput.png');
+
 
     background-attachment: fixed;
-    
 
-    background-size: cover; 
-    
+
+    background-size: cover;
+
 
     background-position: center;
 
     background-repeat: no-repeat;
-    
+
     /* Set a default font for the whole page */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+
     /* Removes default browser margins */
     margin: 0;
     padding: 0;
 }
 
-body {
 
-    /*background:papayaWhip*/
-    background: LightSteelBlue;
-    font-family: Comic-sans, Arial, Helvetica, sans-serif;
-    margin-left:5em;
-    margin-right:5em;
-    margin-top:3em;
-    margin-bottom:3em;
-}
 h1 {
     font-size: 5ex;
     text-align: center
@@ -38,31 +29,32 @@ h1 {
 }
 
 .main-content {
-   
-    width: 1050px; 
-    
+
+    width: 1050px;
+
     /* This centers the block on the page */
     margin: 40px auto;
-    
+
     /* This is the white background */
     background-color: #ffffff;
-    
+
     /* Adds spacing inside the white box */
     padding: 30px;
-    
+
     /* Adds a slight shadow */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    
+
     /* Rounds the corners */
     border-radius: 8px;
 }
 
 /* For mobile phones */
-@media (max-width: 768px) {
+@media (max-width : 768px) {
     .main-content {
-        width: 90%; 
+        width: 90%;
     }
 }
+
 
 ul {
     list-style: none;
@@ -71,8 +63,9 @@ nav {
     font-size: 3ex;
 }
 img {
-    width: 59%;
+    width: 50%;
     max-width: 500px;
+    height: auto; 
 }
 
 figcaption {
@@ -85,44 +78,81 @@ div.side-by-side {
 }
 
 .flex-item {
-    padding: 10px;
-    border: 1px solid black;
+    padding: 20px;
 }
 
-.container {
-    display: flex;
+figure {
+    background-color: #F5F5DC;
+    margin: 50px auto;
+    padding: 10px;
+    width: 45%;
+    text-align: center
 }
+
+.container img {
+    margin: 100px;
+    cursor: zoom-in;
+    transition: transform 2s ease;
+    background-color: #FFDBBB;
+    
+}
+
+input[type = checkbox]
+{
+    display: none
+}
+
+input[type = checkbox]:checked ~ label > img
+{
+    transform: scale(2.5);
+    cursor: zoom-out;
+    border: 5px solid skyblue;
+}
+
 
 .flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
-}
 
-figure {
-    background-color: grey;
-    margin: 40px auto;
-    padding: 20px;
-    width: 45%;
-    
-    
 }
 
 .back {
-    background-image:url(img)
+    background-image: url(img)
 }
 .box {
-  border: 5px solid black;
+    border: 5px solid black;
 }
 
 .align {
     text-align: center
 }
 
-figure.lock {
-    flex: 1;
-    background-color: #FFBF00;
+.name {
+    background-color: #FDAA48
+}
+
+
+.lined {
+  text-decoration: underline;
+}
+
+
+.lock {
+    cursor: zoom-in;
+    transition: transform 2s ease;
+    background-color: silver
+}
+
+.trash {
+    cursor: zoom-in;
+    transition: transform 2s ease;
+    background-color: #FBD968
+}
+
+.block {
+    background-color: #F5F5DC;
+
 }
 
 .featureBlock {
