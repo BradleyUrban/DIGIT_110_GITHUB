@@ -138,18 +138,6 @@ input[type = checkbox]:checked ~ label > img
 }
 
 
-.lock {
-    cursor: zoom-in;
-    transition: transform 2s ease;
-    background-color: silver
-}
-
-.trash {
-    cursor: zoom-in;
-    transition: transform 2s ease;
-    background-color: #FBD968
-}
-
 .block {
     background-color: #F5F5DC;
 
